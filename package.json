@@ -1,0 +1,16 @@
+"name": "moses-xd-pair",
+  "version": "1.0.0",
+  "description": "Session generator and linker for WhatsApp pairing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+},
+  "keywords": ["session", "whatsapp", "express", "link"],
+  "author": "Marinyame Studios",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+}
+}
