@@ -1,0 +1,12 @@
+yaml
+services:
+  - type: web
+    name: moses-xd-pair
+    env: node
+    plan: free
+    buildCommand: ""        # Leave empty = use npm install
+    startCommand: npm start
+    rootDir: .              # Your project is in the root directory
+    envVars:
+      - key: NODE_VERSION
+        value: 20
